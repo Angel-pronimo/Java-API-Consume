@@ -14,6 +14,7 @@
     pkgs.jdk21
     pkgs.run
     pkgs.jdk
+    pkgs.maven
   ];
 
   # Sets environment variables in the workspace
