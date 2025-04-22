@@ -13,6 +13,7 @@
     # pkgs.nodePackages.nodemon
     pkgs.jdk21
     pkgs.run
+    pkgs.jdk
   ];
 
   # Sets environment variables in the workspace
