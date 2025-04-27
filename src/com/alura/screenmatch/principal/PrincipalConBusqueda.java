@@ -23,5 +23,11 @@ public class PrincipalConBusqueda {
 
         HttpResponse<String> response = client
                 .send(request, HttpResponse.BodyHandlers.ofString());
+
+        System.out.println(response.body());
+
+        Gson gson = new Gson();
+        gson.fromJson(json, Titulo.class);
+        System.out.println(pelicula);
     }
 }
