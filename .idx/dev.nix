@@ -13,7 +13,8 @@
     # pkgs.nodePackages.nodemon
     pkgs.run
     pkgs.jdk
-    pkgs.maven    
+    pkgs.maven  
+    pkgs.dependency-track-exporter  
   ];
 
   # Sets environment variables in the workspace

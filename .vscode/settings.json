@@ -3,11 +3,13 @@
     "IDX.aI.enableCodebaseIndexing": true,
     "java.format.settings.url": ".vscode/java-formatter.xml",
     "java.project.sourcePaths": [
+        ".",
+        ".vscode",
+        "java-api",
         "src"
     ],
     "java.project.referencedLibraries": [
-        "/home/user/java-api-consume/.vscode/gson-2.13.0.jar",
-        ".vscode/gson-2.13.0.jar"
+        "/home/user/Java-API-Consume/.vscode/gson-2.13.1.jar"
     ],
     "java.dependency.packagePresentation": "hierarchical",
     "java.configuration.updateBuildConfiguration": "interactive",
